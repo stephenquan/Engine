@@ -57,6 +57,7 @@ QQmlEngine* Engine::engine()
     }
 
     connectSignals();
+    return m_engine;
 }
 
 void Engine::clearComponentCache()
